@@ -1,11 +1,12 @@
 import React from 'react'
-import Main from './components/main'
 import Navbar from './components/Navbar'
+import TweetForm from './components/TweetForm'
+
 export default function app() {
   return (
     <div>
       <Navbar />
-      <Main />
+      <TweetForm />
     </div>
   )
 }

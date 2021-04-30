@@ -15,6 +15,10 @@ type Tweet {
   user: User @relation(name: "POSTS", direction: IN)
 }
 
+type Query {
+  users: [User]
+  tweets: [Tweet]
+}
 `;
 
 const schema = makeAugmentedSchema({ typeDefs });
