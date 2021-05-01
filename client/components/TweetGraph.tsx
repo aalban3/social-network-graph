@@ -27,7 +27,7 @@ export default function TweetGraph(props) {
         },
       },
       initial_cypher:
-        "MATCH (u:User)-[rel:POSTS]->(tw:Tweet) RETURN u, rel, tw, tw.text ",
+        "MATCH (u:User)-[rel:POSTS]->(tw:Tweet) RETURN u, rel, tw ",
     };
     const viz = new Neovis(config);
     viz.render();

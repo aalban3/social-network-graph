@@ -1,5 +1,5 @@
 {
-  "name": "neo-movies",
+  "name": "social-grapher",
   "version": "1.0.0",
   "description": "Neo4j POC",
   "main": "dist/index.js",
