@@ -1,5 +1,4 @@
 import express, { json, urlencoded } from "express";
-import { graphqlHTTP } from "express-graphql";
 const app = express();
 import path from "path";
 import dotenv from "dotenv";

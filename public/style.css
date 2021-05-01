@@ -1,3 +1,10 @@
+/* MAIN */
+.main {
+  height: 50rem;
+  display: flex;
+  justify-content: space-between;
+}
+/* TWEET FORM */
 .form-container {
   width: 20rem;
   height: 20rem;
@@ -25,4 +32,24 @@
 
 .form-button {
   background-color: #0892d0 !;
+}
+
+/* GRAPH COMPONENT */
+.graph-container {
+  width: 60%;
+  margin-right: 5rem;
+  margin-top: 3rem;
+}
+
+.graph-area {
+  height: 60rem;
+  border: 3px solid #0892d0;
+  border-radius: 9px;
+}
+
+#vix {
+  height: 100%;
+}
+canvas {
+  height: 60rem !important;
 }

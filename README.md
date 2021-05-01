@@ -1,3 +1,3 @@
-# Movie Detective 
+# Social Grapher
 
-An app to help you identify who was in what movie with who. 
+A web app to keep up with friends and their posts

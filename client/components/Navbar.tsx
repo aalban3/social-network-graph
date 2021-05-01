@@ -27,7 +27,7 @@ export default function Navbar() {
           variant="h6"
           className={classes.title}
         >
-          <big>Movie detective</big>
+          <big>Social Grapher</big>
         </Typography>
       </Toolbar>
     </AppBar>
