@@ -61,6 +61,7 @@ const TweetForm = () => {
       });
     setUser("");
     setText("");
+    
   };
   return (
     <div className="form-container">

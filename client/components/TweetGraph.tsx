@@ -1,7 +1,8 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState, useRef, useContext } from "react";
 import Neovis from "neovis.js/dist/neovis.js";
+import { printIntrospectionSchema } from "graphql";
 const { REACT_APP_USER, REACT_APP_PW, REACT_APP_NEO_URI } = process.env;
-export default function TweetGraph(props) {
+export default function TweetGraph() {
   const neo4jUri: any = REACT_APP_NEO_URI;
   const neo4jUser: any = REACT_APP_USER;
   const neo4jPassword: any = REACT_APP_PW;
