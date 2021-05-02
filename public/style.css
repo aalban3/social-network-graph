@@ -3,6 +3,7 @@
   height: 50rem;
   display: flex;
   justify-content: space-between;
+  font-family: "Press Start 2P", cursive;
 }
 /* TWEET FORM */
 .form-container {
@@ -12,6 +13,7 @@
   margin-left: 5rem;
   border: 3px solid #0892d0;
   border-radius: 9px;
+  box-shadow: 6px 5px 4px grey;
 }
 
 .form-container form {
@@ -24,12 +26,20 @@
 .form-container form > * {
   margin: 0.5rem;
 }
-
+.form-container form big {
+  color: rgb(112, 112, 112);
+}
+.form-button {
+  background-color: #0892d0 !important;
+  margin-top: 2rem;
+}
 /* NAVBAR */
 .nav-color {
   background-color: #0892d0 !important;
 }
-
+.nav-color big {
+  font-family: "Press Start 2P", cursive;
+}
 .form-button {
   background-color: #0892d0 !;
 }
@@ -39,16 +49,22 @@
   width: 60%;
   margin-right: 5rem;
   margin-top: 3rem;
+  font-family: "Press Start 2P", cursive;
 }
-
+.graph-container big {
+  color: rgb(112, 112, 112);
+  margin-bottom: 1rem !important;
+}
 .graph-area {
   height: 60rem;
   border: 3px solid #0892d0;
   border-radius: 9px;
+  box-shadow: 6px 5px 4px grey;
 }
 
 #vix {
   height: 100%;
+  box-shadow: 6px 5px 4px grey;
 }
 canvas {
   height: 60rem !important;

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Button from "react-bootstrap/Button";
+import Button from "@material-ui/core/Button";
 import { gql, useMutation } from "@apollo/client";
 
 const ADD_TWEET = gql`
@@ -61,7 +61,6 @@ const TweetForm = () => {
       });
     setUser("");
     setText("");
-    
   };
   return (
     <div className="form-container">
@@ -79,7 +78,12 @@ const TweetForm = () => {
           value={text}
           onChange={(evt) => setText(evt.target.value)}
         />
-        <Button type="submit" className="form-button">
+        <Button
+          type="submit"
+          variant="contained"
+          color="primary"
+          className="form-button"
+        >
           Tweet it!
         </Button>
       </form>
