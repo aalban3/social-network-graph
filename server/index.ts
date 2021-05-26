@@ -40,7 +40,6 @@ const init = async () => {
   await apollo.start();
   apollo.applyMiddleware({ app });
   app.listen(PORT, () => {
-    // tslint:disable-next-line:no-console
     console.log(`listening at http://localhost:${PORT}`);
   });
 };
